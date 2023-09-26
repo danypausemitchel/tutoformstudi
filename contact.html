@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez moi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Me contacter</h1>
+
+    <form action="#">
+       <div>
+        <label for="lastname">Votre nom</label>
+        <input name="Nom :" type="text" id="lastname" placeholder="DP" required>
+       </div> 
+        
+       <div>
+        <label for="pass">Votre mot de passe</label>
+        <input name="Mot de passe :" type="password" id="pass" placeholder="root1234" maxlength="8">
+       </div>
+
+       <div>
+        <input type="checkbox" name="#" id="privacypolicy" required>
+        <label for="privacypolicy">J'approuve la politique de confidentialité de ce site</label>
+       </div>
+
+       <div>
+        <label for="message">Mon message</label>
+        <textarea name="Message :" id="message" cols="20" rows="5"></textarea>
+       </div>
+
+       <div>
+        <label for="car">Ma voiture</label>
+        <select name="Voiture :" id="car">
+            <option value="renault">Renault</option>
+            <option value="opel">Opel</option>
+        </select>
+       </div>
+
+       <div>
+        <input type="submit" value="Envoyer">
+       </div>
+
+    </form>
+</body>
+</html>
